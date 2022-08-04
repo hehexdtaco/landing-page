@@ -17,28 +17,3 @@ body {
     background-color: #1F2937;
 }
 
-.upper-header{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex: 1;
-    min-width: 60px;
-    gap:900px;
-    
-}
-
-.logo-text{
-    font-size: 24px;
-    color: #F9FAF8;
-
-}
-
-.header-links{
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    font-size: 18px;
-    color: #E5E7EB;
-    list-style-type: none;
-
-}
