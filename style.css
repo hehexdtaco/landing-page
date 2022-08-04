@@ -11,9 +11,22 @@ body {
 
 .header-section {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
     flex: 1;
     background-color: #1F2937;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
+.header-logo {
+    padding-bottom: 50px;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+
+button {
+    background-color: #3882F6;
+}
