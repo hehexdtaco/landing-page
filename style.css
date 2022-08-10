@@ -72,7 +72,7 @@ body {
 }
 
 
-button {
+.header-sign-up {
     background-color: #3882F6;
     color: white;
     border-radius: 5px;
@@ -141,7 +141,9 @@ button {
     height: 200px;
     min-height: 60px;
     min-width: 60px;
-    border: 5px solid #3882F6
+    border: 5px solid #3882F6;
+    border-radius: 5px;
+    
 
 }
 
@@ -196,10 +198,69 @@ button {
     font-size: 20px;
     font-weight: bold;
     margin-right: 5%;
-    
+}
+
+/*End of quote*/
+
+/*Call to action section*/
+.call-to-action-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.action-border{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5%;
+    margin: 5%;
+    width: 30%;
+    background-color: #3882F6;
+    border-radius: 7px;
+
+}
+
+.action-left{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.action-left-content{
+    width: 110%;
+    min-width: 50%;
 }
 
 
-/*End of quote*/
+.action-left .bold{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.action-text {
+    color: white;
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.action-right {
+    display: flex;
+    justify-content:flex-end;
+    align-content: center;
+    width: 150px;
+    margin-left: 10%;
+}
+
+ #action-button {
+    width: 100px;
+    border: black 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/*End of call to action*/
 
 
