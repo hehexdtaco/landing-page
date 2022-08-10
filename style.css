@@ -8,6 +8,8 @@ body {
     height: 100%;
 }
 
+/*Header content*/
+
 
 .header-section {
     display: flex;
@@ -103,7 +105,7 @@ button {
   min-height: 0;
   
 }
-
+/*End of header*/
 
 
 
@@ -123,6 +125,7 @@ button {
     font-weight: 800;
     color: #1F2937;
     margin-bottom: 20px;
+    margin-top: 1%;
 }
 
 .Random-boxes {
@@ -158,4 +161,17 @@ button {
     width:200px;
     min-width: 60px;
 }
+/*End of random*/
+
+/*Quote section*/
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    justify-content: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
 
