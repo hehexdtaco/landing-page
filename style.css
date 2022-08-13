@@ -270,4 +270,21 @@ body {
 
 /*End of call to action*/
 
+/*Footer section*/
+.footer-section {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+}
+
+.copyright {
+    justify-content: center;
+    align-self: center;
+    color: #F9FAF8;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    
+}
+
+/*End of footer section*/
 
